@@ -16,7 +16,26 @@
     echo "<h2>Hello $a</h2>"; #output
 
     $hadir= false;
+    $umur = 20;
+    $nokp = '010513020242'
 
     ?>
+
+    <p>
+        <?php
+        echo 20 . 21;
+        ?>
+    </p>
+
+    <p>
+        <?php
+        $bandar = 'Alor Setar';
+        $baru = 'Bandar';
+        for($x = 0; $x < strlen($bandar); $x++){
+            $baru .= $bandar[$x] . '-';
+        }
+        echo $baru;
+        ?>
+    </p>
 </body>
 </html>
